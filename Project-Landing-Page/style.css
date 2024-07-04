@@ -170,10 +170,60 @@ a {
     text-align: end;
 }
 
+.bottom-banner {
+    height: 300px;
+}
 
+.bottom-banner .banner {
+    background-color: #3882F6;
+    width: inherit;
+    height: 130px;
+    border-radius: 10px ;
 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.bottom-banner .banner h2 {
+    color: #F9FAF8;
+}
 
+.bottom-banner .banner p {
+    color: #E5E7EB;
+}
+
+.bottom-banner .container {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-banner .banner-button {
+    background-color: inherit;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #F9FAF8;
+    padding: 5px 28px;
+}
+
+footer {
+    background-color: #1F2937;
+    height: 80px;
+}
+
+footer .container {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #F9FAF8;
+}
 
 
 
