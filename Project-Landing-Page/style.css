@@ -17,7 +17,7 @@ body {
 }
 
 img {
-    max-width: 400px;
+    max-width: 800px;
 }
 
 ul {
@@ -61,6 +61,47 @@ a {
     display: flex;
     gap: 24px;
 }
+
+.heading {
+    background-color: #1F2937;
+    height: 29rem;
+}
+
+.heading-left h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    width: 500px;
+}
+
+.heading-left p {
+    color: #E5E7EB;
+    font-size: 18px;
+    width: 450px;
+}
+
+.heading-left .signup-btn {
+    background-color: #3882F6 ;
+    color: #F9FAF8;
+    border: none;
+    font-size: 18px;
+    font-weight: 550;
+    padding: 8px 28px;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+
+.heading-right img {
+    width: 400px;
+}
+
+.heading .container {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 
 
