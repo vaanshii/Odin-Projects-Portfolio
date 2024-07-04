@@ -64,7 +64,7 @@ a {
 
 .heading {
     background-color: #1F2937;
-    height: 29rem;
+    height: 30rem;
 }
 
 .heading-left h1 {
@@ -101,6 +101,57 @@ a {
     justify-content: space-between;
     align-items: center;
 }
+
+.content.boxes {
+    height: 28rem; 
+}
+
+.content.boxes .container h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.content.boxes .container .box-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 50px
+}
+
+.box-container .box {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6 ;
+    border-radius: 15px;
+}
+
+.box-container p {
+    width: 150px;
+    text-align: center;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.content.quote {
+    height: 400px;
+    background-color: #E5E7EB;
+}
+
+.content.quote .container {
+    height: inherit;
+}
+
+
+
 
 
 
