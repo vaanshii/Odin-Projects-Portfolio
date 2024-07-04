@@ -148,8 +148,27 @@ a {
 
 .content.quote .container {
     height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.content.quote .container .quote {
+    width: 800px;
+}
+
+.content.quote .container .quote h1 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.content.quote .container .quote h6 {
+    color: #1F2937;
+    font-size: 26px;
+    text-align: end;
+}
 
 
 
