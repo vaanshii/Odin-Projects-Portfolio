@@ -62,6 +62,10 @@ a {
     gap: 24px;
 }
 
+.navbar .container a:hover {
+    color: #7cb3ff;
+}
+
 .heading {
     background-color: #1F2937;
     height: 30rem;
@@ -126,6 +130,13 @@ a {
     height: 150px;
     border: 3px solid #3882F6 ;
     border-radius: 15px;
+
+    transition: height 1s, width 1s, transform 1s;
+}
+
+.box-container .box:hover {
+    width: 200px;
+    height: 200px;
 }
 
 .box-container p {
